@@ -1,0 +1,18 @@
+{
+  "name": "mi-ai-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mi AI - asistente de IA para Android",
+  "scripts": {
+    "build": "echo Static app ready",
+    "android:add": "cap add android",
+    "android:sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
